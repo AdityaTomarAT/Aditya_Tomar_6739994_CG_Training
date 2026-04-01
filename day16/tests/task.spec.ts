@@ -8,7 +8,7 @@ test("custom", async ({ page }) => {
     await page.keyboard.type('helloo!!');
 
     const name = page.locator('//input[@class="w-1/2 p-2 border rounded-l-lg"]');
-    await name.fill('naman.txt');
+    await name.fill('eddy.txt');
 
     await Promise.all([
         page.waitForEvent('download'),

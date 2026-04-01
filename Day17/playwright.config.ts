@@ -12,8 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: '.',
-  testMatch: ['**/*.spec.{js,ts,mjs,cjs}'],
+  testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -37,8 +36,7 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      // Use local Chrome to avoid downloading Playwright browsers.
-      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+      use: { ...devices['Desktop Chrome'] },
     },
 
     {

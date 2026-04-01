@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - article [ref=e4]:
+    - link "logo" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - img "logo" [ref=e7]
+  - navigation "breadcrumb" [ref=e10]:
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "Login" [ref=e13] [cursor=pointer]:
+          - /url: /user-signin
+  - generic [ref=e14]:
+    - tablist "Vertical tabs example" [ref=e18]:
+      - tab "Shopper Login" [selected] [ref=e19] [cursor=pointer]: Shopper Login
+      - tab "Merchant Login" [ref=e20] [cursor=pointer]: Merchant Login
+      - tab "Admin Login" [ref=e21] [cursor=pointer]: Admin Login
+    - tabpanel "Shopper Login" [ref=e23]:
+      - article [ref=e27]:
+        - generic [ref=e28]:
+          - heading "Shopper Login" [level=5] [ref=e29]:
+            - strong [ref=e30]: Shopper Login
+          - generic [ref=e31]:
+            - generic: Email
+            - generic [ref=e32]:
+              - textbox "Email" [ref=e33]
+              - group
+          - generic [ref=e34]:
+            - generic: Password
+            - generic [ref=e35]:
+              - textbox "Password" [ref=e36]
+              - button "toggle password visibility" [ref=e38] [cursor=pointer]:
+                - img [ref=e40]
+              - group
+          - button "Login" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: Login
+          - separator [ref=e44]:
+            - generic [ref=e45]: New to ShoppersStack ?
+          - button "Create Account" [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]: Create Account
+          - generic [ref=e49] [cursor=pointer]: Forgot Password?
+  - article [ref=e51]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - heading "about" [level=1] [ref=e55]
+          - link "contact us" [ref=e56] [cursor=pointer]:
+            - /url: /
+          - link "about us" [ref=e57] [cursor=pointer]:
+            - /url: /
+          - link "careers" [ref=e58] [cursor=pointer]:
+            - /url: /
+          - link "ShoppersStack stories" [ref=e59] [cursor=pointer]:
+            - /url: /
+          - link "press" [ref=e60] [cursor=pointer]:
+            - /url: /
+          - link "ShoppersStack wholesale" [ref=e61] [cursor=pointer]:
+            - /url: /
+          - link "corporate information" [ref=e62] [cursor=pointer]:
+            - /url: /
+        - generic [ref=e63]:
+          - heading "help" [level=1] [ref=e64]
+          - link "payments" [ref=e65] [cursor=pointer]:
+            - /url: /
+          - link "shipping" [ref=e66] [cursor=pointer]:
+            - /url: /
+          - link "cancellation & returns" [ref=e67] [cursor=pointer]:
+            - /url: /
+          - link "FAQ" [ref=e68] [cursor=pointer]:
+            - /url: /
+          - link "report infringement" [ref=e69] [cursor=pointer]:
+            - /url: /
+          - link "Swagger documentation" [ref=e70] [cursor=pointer]:
+            - /url: https://www.shoppersstack.com/shopping/swagger-ui.html#
+          - link "Requirement documentation" [ref=e71] [cursor=pointer]:
+            - /url: /requirement-document
+        - generic [ref=e72]:
+          - heading "policy" [level=1] [ref=e73]
+          - link "return policy" [ref=e74] [cursor=pointer]:
+            - /url: /
+          - link "terms of use" [ref=e75] [cursor=pointer]:
+            - /url: /
+          - link "security" [ref=e76] [cursor=pointer]:
+            - /url: /
+          - link "privacy" [ref=e77] [cursor=pointer]:
+            - /url: /
+          - link "sitemap" [ref=e78] [cursor=pointer]:
+            - /url: /
+          - link "EPR compliance" [ref=e79] [cursor=pointer]:
+            - /url: /
+        - generic [ref=e80]:
+          - heading "social" [level=1] [ref=e81]
+          - link "facebook" [ref=e82] [cursor=pointer]:
+            - /url: /
+          - link "twitter" [ref=e83] [cursor=pointer]:
+            - /url: /
+          - link "youTube" [ref=e84] [cursor=pointer]:
+            - /url: /
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "mail us:" [level=1] [ref=e87]
+          - generic [ref=e88]: shoppersstack@yahoo.in
+        - generic [ref=e89]:
+          - heading "registered office address:" [level=1] [ref=e90]
+          - generic [ref=e91]: ShoppersStack private limited, gopalan coworks, kathreguppe, banashankari 3rd stage, bangalore, 560029, karnataka, india
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - img [ref=e95]
+          - paragraph [ref=e98]:
+            - link "Create Admin Account" [ref=e99] [cursor=pointer]:
+              - /url: /admin-signup
+        - generic [ref=e100]:
+          - img [ref=e101]
+          - link "Advertise" [ref=e103] [cursor=pointer]:
+            - /url: /advertisement
+        - generic [ref=e104]:
+          - img [ref=e105]
+          - link "Voucher" [ref=e107] [cursor=pointer]:
+            - /url: https://voucher.shoppersstack.com
+        - generic [ref=e108]:
+          - img [ref=e109]
+          - link "Help Center" [ref=e111] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=e112]:
+          - img [ref=e113]
+          - link "Create Shopper/ Merchant" [ref=e116] [cursor=pointer]:
+            - /url: /urlhelper
+      - generic [ref=e117]:
+        - link "logo" [ref=e118] [cursor=pointer]:
+          - /url: /
+          - img "logo" [ref=e119]
+        - generic [ref=e120]: © 2007-2022 ShoppersStack.com
+```

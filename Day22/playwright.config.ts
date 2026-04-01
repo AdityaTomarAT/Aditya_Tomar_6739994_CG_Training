@@ -12,8 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: '.',
-  testMatch: ['**/*.spec.{js,ts,mjs,cjs}'],
+  testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -30,15 +29,16 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'on',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      // Use local Chrome to avoid downloading Playwright browsers.
-      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+      use: { ...devices['Desktop Chrome'] },
     },
 
     {
